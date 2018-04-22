@@ -1,3 +1,9 @@
+/* General */
+
+body {
+  text-align: center;
+}
+
 h1,
 h2,
 h3,
@@ -5,11 +11,77 @@ p {
   font-family: "Helvetica";
 }
 
+/* Header */
 nav {
   background-image: url(../images/the-flatiron-building.png);
 }
 
+nav ul {
+  font-size: 18px;
+}
+
 nav li {
-  margin-bottom: 3px;
+  margin-bottom: 10px;
   list-style-type: none;
+  color: #FFF
+}
+
+nav a {
+  color: #FFF
+}
+
+/* Headlines & Text */
+h1 {
+  color: #FFF;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+.white {
+  color: #FFF
+}
+
+/* Divider */
+#breaker {
+  background-image: url(../images/the-flatiron-building.png);
+}
+
+/* Footer */
+#footer {
+  background-color: dimgray;
+}
+
+#footer p {
+  font-size: 11px;
+  display: inline;
+  color: #FFF;
+}
+
+#footer ul {
+  display: inline;
+}
+
+#footer li {
+  list-style-type: none;
+  color: #FFF;
+  float: right;
+  padding: 0px 5px;
+}
+
+#footer li a {
+  color: #FFF;
 }
