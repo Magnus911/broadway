@@ -1,0 +1,15 @@
+h1,
+h2,
+h3,
+p {
+  font-family: "Helvetica";
+}
+
+nav {
+  background-image: url(../images/the-flatiron-building.png);
+}
+
+nav li {
+  margin-bottom: 3px;
+  list-style-type: none;
+}
